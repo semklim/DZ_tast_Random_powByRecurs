@@ -1,12 +1,14 @@
 'use strict'
 
-// 1 виконано так щоб можна було взаємодіяти з через HTML сторінку
+// For checking all task, copy all what you need in console and call name of function.
+
+
+// 1.00001
 // _______________________________________________________________
 function getRandomInt() {
   return Math.floor(Math.random() * 256);
 }
 
-// В HTML клікать по кнопці
 let rgbColor = () => {
 	let color = `rgb(${getRandomInt()}, ${getRandomInt()}, ${getRandomInt()})`;
 
@@ -16,12 +18,12 @@ let rgbColor = () => {
 // ____________________________________________________________
 
 // 1.00002 те як в дз оговорено, так і виконано.
+
 // function getRandomInt() {
 // 	  return Math.floor(Math.random() * 256);
 // 	}
 	
-// 	// В HTML клікать по кнопці
-// 	let rgbColor = () => {
+// 	let rgbColorCMD = () => {
 // 		console.log(`style="background: rgb(${getRandomInt()}, ${getRandomInt()}, ${getRandomInt()})"`);
 // 	}
 

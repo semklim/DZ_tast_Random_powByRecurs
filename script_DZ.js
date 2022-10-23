@@ -29,12 +29,12 @@ let rgbColor = () => {
 
 // 2
 
-// function getRandomInt() {
-//   return Math.floor(Math.random() * 6;
+// function getRandom() {
+//   return Math.floor(Math.random() * 6);
 // }
 
 // function getUTF() {
-// 	let getEmoji = getRandomInt();
+// 	let getEmoji = getRandom();
 
 // switch(getEmoji){
 // 	case 0:{
